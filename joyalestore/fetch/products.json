@@ -1,0 +1,56 @@
+[
+  {
+    "name" : "Gilet beige en coton effet lin",
+    "price" : 39.00,
+    "image" : "gilet-beige-en-coton-effet-lin.jpg",
+    "type" : "Tee-shirt"
+  },
+  {
+    "name" : "Tee-shirt blanc motif Los Angeles",
+    "price" : 25.00,
+    "image" : "tee-shirt-blanc-motif-los-angeles.jpg",
+    "type" : "Tee-shirt"
+  },
+  {
+    "name" : "Tee-shirt oeil à sequins",
+    "price" : 29.00,
+    "image" : "tee-shirt-oeil-a-sequins.jpg",
+    "type" : "Tee-shirt"
+  },
+  {
+    "name" : "Top noir zèbre transparent",
+    "price" : 39.95,
+    "image" : "top-noir-zebre-transparent-.jpg",
+    "type" : "Tee-shirt"
+  },
+  {
+    "name" : "Top vert col cheminée",
+    "price" : 29.00,
+    "image" : "top-vert-col-cheminee-.jpg",
+    "type" : "Tee-shirt"
+  },
+  {
+    "name" : "Top bleu court à bretelles",
+    "price" : 55.00,
+    "image" : "debardeur.jpg",
+    "type" : "Debardeur"
+  },
+  {
+    "name" : "Chemise à manches courtes blanche",
+    "price" : 49.00,
+    "image" : "chemise-a-manches-courtes-blanche-et-doree.jpg",
+    "type" : "Chemise"
+  },
+  {
+    "name" : "Veste oversize denim sequins argentés",
+    "price" : 75.00,
+    "image" : "veste-oversize-denim-sequins-argentes.jpg",
+    "type" : "Vestes & Manteaux"
+  },
+  {
+    "name" : "Veste oversize denim sequins argentés",
+    "price" : 59.00,
+    "image" : "veste-beige-sur-chemise-strass-sur-la-poche.jpg",
+    "type" : "Vestes & Manteaux"
+  }
+]

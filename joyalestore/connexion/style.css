@@ -1,0 +1,71 @@
+/* main */
+.seconnecter {
+    padding: 80px 0px;
+    max-width: 1180px;
+    margin: auto;
+}
+.seconnecter h1{
+    font-family: 'Amatic SC', cursive;
+    font-size: 2em;
+    font-weight: 300;
+    line-height: normal;
+    color: #333333;
+    padding-bottom: 30px;
+}
+.userConnexion {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin: auto;
+    padding: 40px 10px;
+    gap: 10px;
+    border: #878787;
+    box-shadow: 2px 2px 11px 0px rgba(0, 0, 0, 0.1);
+}
+.identification {
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+.identification input{
+    background-color: #ebebeb;
+    border: none;
+    padding: 10px;
+    position: relative;
+    width: 150px;
+}
+.plus input {
+    width: 223.16px;
+
+}
+.identification input:focus{
+    outline: none;
+}
+.mdpinputbtn{
+    display: flex;
+}
+.identification p{
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-weight: 100 !important;
+}
+.userConnexion a{
+    margin: auto;
+    font-family: Open Sans Condensed;
+    font-size: 13px;
+    font-weight: 100 !important;
+}
+.userConnexion button {
+    padding: 10px 20px;
+    border: 1px solid #d5959e;
+    background-color: #d5959e;
+    color: #ffffff;
+    font-family: 'Amatic SC', cursive;
+    width: 15%;
+    margin: auto;
+}
+hr {
+    margin-top: 16px;
+    margin-bottom: 16px;
+    font-size: 1px;
+    color: #878787;
+}

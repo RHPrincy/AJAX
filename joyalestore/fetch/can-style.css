@@ -1,0 +1,130 @@
+header, main, .menu, .footer_container, .footer_container2, #singleproductdisplay, #commande{
+  max-width: 1170px;
+  margin: auto;
+  overflow-x: hidden;
+}
+/* main */
+.bgmenu img{
+  width: 100vw;
+}
+.menu p {
+  color: #484848;
+  font-family: Open Sans Condensed;
+  font-weight: 400;
+  font-size: 14px;
+  padding: 20px;
+  background: #f7f7f7;
+}
+/* Styling the products */
+
+main {
+  display: grid;
+  grid-template-columns:  repeat(4, 1fr);
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+}
+.title{
+  text-align: center;
+  text-transform: uppercase;
+  padding: 20px;
+  font-size: 30px;
+  font-family: 'Amatic SC', cursive;
+  color: #d5959e;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+section img {
+  width: 100%;
+  height: 100%;
+}
+
+section p, section h2 {
+  text-align: start;
+  width: 100%;
+  padding-left: 30px;
+}
+
+#commande {
+  text-align: center;
+  color: #484848;
+  
+}
+#commande h1{
+  text-transform: uppercase;
+  padding-top: 30px;
+}
+#commande h2{
+  font-size: 40px;
+}
+#commande p{
+  font-size: 20px;
+  padding-bottom: 30px;
+}
+@media screen and (max-width: 768px) {
+  main {
+    grid-template-columns:  repeat(2, 1fr);
+  }
+}
+/* ------------------------------------------------------------------- */
+/*Top produits*/
+#singleproductdisplay {
+  max-width: 1180px;
+}
+.single-product {
+  display: flex;
+  flex-direction: column;
+}
+.row {
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  gap: 10px;
+  align-items: center;
+}
+
+.col2 h1{
+  text-transform: uppercase;
+}
+.col2 h4{
+  font-size: 30px;
+}
+.choix {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  margin: 10px 0px;
+}
+.choix p{
+  font-size: 20px;
+}
+.choix select{
+  padding: 10px;
+}
+.quantite {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  margin: 10px 0px;
+}
+.quantite p{
+  font-size: 20px;
+}
+.quantite input{
+  padding: 10px;
+}
+.btnAdd{
+  margin-top: 15px;
+  padding: 10px;
+  background-color: #d5959e;
+  border: 1px solid #d5959e;
+  color: #f1f1f1;
+}
+.col2 p {
+  padding: 10px;
+}
+/* -------------------------------------------------------------------- */
